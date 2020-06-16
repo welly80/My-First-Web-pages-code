@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index.html</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/poll.js"></script>
+</head>
+
+  <!-- id on <body> wrapping whole body for grid layout css works-->
+<body id="container">
+
+    <!-- Tag header wrapping logo and expression under-->
+    <header class="pageHeader">
+    <span><span class="red1">Robot</span> Juice</span><span class="blog">fictitious cycle lubricants</span>
+    </header>
+
+     <!-- Main nav  with toggle input for mobile page-->
+    <nav class="nav1">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+   <ul class="nav">
+   <li><a href="index.html">Home</a></li>
+    <li><a href="product.html">Products</a></li>
+    <li><a href="">Protect</a></li>
+    <li><a href="">Stockists</a></li>
+    <li><a href="">Events</a></li>
+    <li><a href="">Reviews</a></li>
+  </ul>
+    </nav>
+
+        <!-- Main image Robo cycling-->
+     <img class="img1" src="images/robotbanner.jpg"  alt="Robot cycling"/>
+
+      <!-- Phrase under main image -->
+    <p class="text1">Robot juice is the ultimate fictitious bicycle and motercycle</p>
+    <span class="t1">lubracant oils.</span>
+
+       <!-- <hr> tags for horizontal lines around the page-->
+    <div class="line1">
+      <hr>
+     </div>
+
+          <!-- begging of link pages connected with the main page -->
+    <div class="link1">
+   <a href="#"><img src="images/bikechain-bikeoil.jpg" class="s1" alt="bike chain"/>
+    <h1> Bike oil</h1>
+   </a>
+   <p>Stops and protects against rust, reduces friction on moving parts and is essential on any cycle.</p>
+  </div>
+
+  <div class="link2">
+ <a href="#"><img src="images/cycleside-drylubrication.jpg" class="s1" alt="cyclist side"/>
+  <h1> Dry Lubricant</h1>
+ </a>
+ <p>Perfect chain lubricant for dry road riding. Resists water penetration and wash-off easily.</p>
+</div>
+
+<div class="link3">
+<a href="#"><img src="images/frontcycle-wetlubrication.jpg" class="s1"  alt="frontcyclist"/>
+<h1> Wet Lubricant</h1>
+</a>
+<p>A thick, heavy duty lube designed to stick to the chain in wet conditions. Ideal for extreme weather and long distance riding.</p>
+</div>
+
+<div class="link4">
+<a href="product.html"><img src="images/productreviews.jpg"  class="s1" alt="writting hands"/>
+ <h1>Product Reviews</h1>
+</a>
+<p>Read what the press and our customers say about our excellent products.</p>
+</div>
+
+<div class="line2">
+  <hr>
+</div>
+
+    <!-- news section all wrapped with class news -->
+<div class="news">
+ <h2>Latest News</h2>
+ <b>News item one!</b>
+ <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+   laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci penetration
+   ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+   <i class="red">September, 2012</i>
+
+   <b>News item one!</b>
+   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+     laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci penetration
+     ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+     <i class="red">September, 2012</i>
+
+     <b>News item one!</b>
+     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+       laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci penetration
+       ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis autem vel eum iriure.</p>
+       <i class="red">September, 2012</i>
+</div>
+
+         <!-- interactive box on side of latest news for the user vote -->
+      <div class="side-box">
+        <form action="#" method="get" id="infor">
+        <h2>Reader Poll</h2>
+        <p class="red">Are robot Juice the best and most usable and accessible fake oils around?</p>
+        <div><input id="ch" type="radio" name="suite" value="yes" onclick="clickCounter()">Yes</diV>
+        <div><input  id="ch2" type="radio" name="suite" value="no" onclick="clickCounter()">No</div>
+        <div id="result"></div>
+      </form>
+
+        <h2>competition</h2>
+        <p>Win absolutely nothing by entering this extremly expensive competition. Robot Juice will not send you a full range of our cycling and motorcycle oils and lubricants as we do not exisit. But just for fun...</p>
+        <p>Which Film is our address made up from?</p>
+        <ol>
+          <li>a) Armageddon</li>
+          <li>b) Harry Potter</li>
+          <li>c) The Simpsons (movie)</li>
+      </ol>
+        <p>answers on a postcard please.</p>
+      </div>
+
+          <!-- Advertise botom before footer all wrapped with class pb-->
+       <div class="pb">
+      <div class="bottom1">
+      <img src="images/cyclemagazine.jpg"  alt="frontcycle magazine"/>
+      </div>
+
+      <div class="bottom2">
+        <h3>Latest Reviews</h3>
+        <p>Cycling magazine has given Robot juice a 5 star rating in its latest reviews of dry lubricants. Robot Juice dry lube was rated the highest out of over 40 top brand dry lubs.</p>
+      </div>
+
+       <div class="bottom3">
+        <h3>Links</h3>
+        <div><a class="lb" href="https://www.edgehill.ac.uk/students/">Edge Hill University</a></div>
+        <div><a class="lb" href="https://uk.linkedin.com/in/dave-walsh-57680527">Dave Walsh</a></div>
+        <div><a class="lb" href="https://twitter.com/walsh_d">https://twitter.com/walsh_d</a></div>
+        <div><a class="lb" href="https://www.edgehill.ac.uk/students/">CIS1110 - Designing for web standards module</a></div>
+      </div>
+    </div>
+
+        <!-- start <footer> tag all wrapped wit class pageFooter-->
+     <footer class="pageFooter">
+    <div class="fot1">
+      <p class="fc">Robot juice Fictitous Products Not ltd., Unit 9<sup>3</sup>&frasl;<sub>4</sub>, Privet drive, little Whingeing, Surrey DN18 5rp</p>
+      <p class="fc">Telephone: +44 (0)1695 657648. Email: walshd@edgehill.ac.uk</p>
+    </div>
+
+  <div class="fot2">
+     <p class="fc">
+       <a href="#">Contact Us |</a>
+     <a href="#">Privacy |</a>
+     <a href="#">terms & Conditions |</a>
+     <a href="#">Acessibility</a></p>
+     <p class="fc">Copyright&copy; 2012 Dave Walsh. Design by Dave Walsh</p>
+   </div>
+    </footer>
+
+</body>
+</html>    <!-- End of index.html -->
